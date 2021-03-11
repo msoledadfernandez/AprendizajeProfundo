@@ -15,7 +15,7 @@ Función de perdida del conjunto de datos de entrenamiento
 
 ![image](https://user-images.githubusercontent.com/58821362/110840622-b55c8c00-8283-11eb-9f05-f2b8deced375.png)
 
-**Balance Accuracy
+#### Balance Accuracy
 Métrica de balance accuracy
 
 ![image](https://user-images.githubusercontent.com/58821362/110840749-df15b300-8283-11eb-8554-725d0fc66ad3.png)
