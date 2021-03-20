@@ -10,7 +10,7 @@
 **Este repositorio contiene:**
 
 * el [código](https://github.com/msoledadfernandez/AprendizajeProfundo/tree/main/experiment) en donde se han analizado y modelado Redes Neuronales de tipo **Perceptrón Multicapa** (**MLP**) y **Convulsionales** (**CNN**). 
-* [documento pdf](https://github.com/msoledadfernandez/AprendizajeProfundo/blob/main/resultados_experimentos_utilizando_mlp_y_cnn.pdf) con la explicación de los diferentes experimentos.
+* [documento pdf](https://github.com/msoledadfernandez/AprendizajeProfundo/blob/main/resultados_experimentos_utilizando_mlp_y_cnn.pdf) con el detalle de cada experimento con sus hiperparámetros y gráficos correspondientes.
 
 Los resultados de los experimentos utilizando MLP se encuentran en [mlrunsMLP](https://drive.google.com/file/d/13wxlh7DO11PZBOKDP0--OMsrs8sApoU3/view?usp=sharing)
 y los resultados utilizando CNN se encuentran en [mlrunsCNN](https://drive.google.com/file/d/1oZNxKjFs0E7u9NMMHJffwV9DB444xVWT/view?usp=sharing).
