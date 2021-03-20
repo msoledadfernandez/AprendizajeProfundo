@@ -9,9 +9,10 @@
 
 **Este repositorio contiene:**
 
-* el [código](https://github.com/msoledadfernandez/AprendizajeProfundo/tree/main/experiment) en donde se han analizado y modelado Redes Neuronales de tipo  o **MultiLinePerceptron** (**MLP**) y o **Convulsional** (**CNN**). 
-* los archivos .csv con los resultados de los experimentos realizados.
-* documento pdf con la explicación de los diferentes experimentos.
+* el [código](https://github.com/msoledadfernandez/AprendizajeProfundo/tree/main/experiment) en donde se han analizado y modelado Redes Neuronales de tipo **Perceptrón Multicapa** (**MLP**) y **Convulsionales** (**CNN**). 
+* documento pdf con los experimentos realizados con cada tipo de red neuronal junto con sus hiperpárametros y resultados correspondientes.
+
+Los resultados de los experimentos utilizando MLP se encuentran en [mlrunsMLP](https://drive.google.com/file/d/1oZNxKjFs0E7u9NMMHJffwV9DB444xVWT/view?usp=sharing) y los resultados utilizando CNN se encuentran en mlrunsCNN.
 
 ### **Conclusiones**
 Podemos observar como comportamiento general que cuando la métrica balance accuracy aumenta, la pérdida de validation y train disminuyen. Si validation loss es mayor que training loss podemos decir que es posible que existe algún tipo de sobreajuste, en cambio si validation loss es menor que training loss puede que exista desajuste en el modelo. Por lo tanto, el objetivo es hacer que la validation loss sea lo más pequeña posible.
