@@ -12,7 +12,7 @@
 * el [código](https://github.com/msoledadfernandez/AprendizajeProfundo/tree/main/experiment) en donde se han analizado y modelado Redes Neuronales de tipo **Perceptrón Multicapa** (**MLP**) y **Convulsionales** (**CNN**). 
 * documento pdf con los experimentos realizados con cada tipo de red neuronal junto con sus hiperpárametros y resultados correspondientes.
 
-Los resultados de los experimentos utilizando MLP se encuentran en [mlrunsMLP](https://drive.google.com/file/d/1GvoboqgHm3AisAWkTOzO7_1qK_eugr3A/view?usp=sharing).
+Los resultados de los experimentos utilizando MLP se encuentran en [mlrunsMLP](https://drive.google.com/file/d/1GvoboqgHm3AisAWkTOzO7_1qK_eugr3A/view?usp=sharing)
 y los resultados utilizando CNN se encuentran en [mlrunsCNN](https://drive.google.com/file/d/1oZNxKjFs0E7u9NMMHJffwV9DB444xVWT/view?usp=sharing).
 
 ### **Conclusiones**
