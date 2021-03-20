@@ -9,7 +9,7 @@
 
 **Este repositorio contiene:**
 
-* el código en donde se han analizado y modelado Redes Neuronales de tipo  o **MultiLinePerceptron** (**MLP**) y o **Convulsional** (**CNN**). 
+* el [código](https://github.com/msoledadfernandez/AprendizajeProfundo/tree/main/experiment) en donde se han analizado y modelado Redes Neuronales de tipo  o **MultiLinePerceptron** (**MLP**) y o **Convulsional** (**CNN**). 
 * los archivos .csv con los resultados de los experimentos realizados.
 * documento pdf con la explicación de los diferentes experimentos.
 
