@@ -17,10 +17,15 @@ y los resultados utilizando CNN se encuentran en [mlrunsCNN](https://drive.googl
 
 ### **Conclusiones**
 
-En los distintos experimentos realizados se observa que cuando la métrica **balance accuracy** aumenta, la **función loss de validation** y **train** disminuyen.  Si bien no pudimos utilizar muchas épocas por la limitación de recursos podemos concluir que a medida que aumentan las épocas, disminuyen tanto el error en la validación como en el entrenamiento.
+Como sabemos, el train loss representa el error en el conjunto de datos de entrenamiento, y el validation loss el error después de ejecutar el conjunto de datos de validación a través de la red entrenada. Por lo tanto, debemos tener cuidado cuando observamos un validation loss mucho mayor que el train loss ya que puede ser una señal de que el modelo está sobreajustado y aprende "supersticiones", es decir, patrones que accidentalmente eran ciertos en sus datos de entrenamiento pero que no tienen una base en la realidad y, por lo tanto, no son ciertos en sus datos de validación.
 
-El train loss representa el error en el conjunto de datos de entrenamiento, y el validation loss el error después de ejecutar el conjunto de datos de validación a través de la red entrenada. Por lo tanto, debemos tener cuidado cuando observamos un validation loss mucho mayor que el train loss ya que puede ser una señal de que el modelo está sobreajustado y aprende "supersticiones", es decir, patrones que accidentalmente eran ciertos en sus datos de entrenamiento pero que no tienen una base en la realidad y, por lo tanto, no son ciertos en sus datos de validación.
+En los distintos experimentos realizados se observa que, 
 
-De los experimentos realizados concluimos que el mejor modelo en las fase de training y validation es el experimento nro. 1,  el cual utiliza redes Perceptrón Multicapa o MLP.
+* cuando la métrica **balance accuracy** aumenta, disminuyen tanto la **función loss de validation** como la de **train** 
 
-Para nuestro dataset en particular y con los hiper parámetros que usamos en base a los recursos que teniamos disponibles podemos decir que el experimento 1 de la Red Neuronal tipo MLP es que que tuvo un nivel de acierto superior. Disminuyendo los valores de pérdidas de los conjuntos de validation y train. Igualmente los casos de prueba fueron restringidos por la situación mencionada anteriormente por lo cual no se descarta que otros seteos de hiper párametros tuvieran un nivel superior de acierto. Esta comprobado que a mayor cantidad de epoch el balanced accuracy aumenta.
+* aunque no pudimos utilizar muchas épocas por la limitación de recursos pudimos observar que a medida que estás aumentan, el balanced accuracy aumenta y disminuyen tanto el error en la validación como en el entrenamiento.
+
+* con los hiperparámetros que usamos en base a los recursos disponibles podemos decir que el modelo que tuvo un nivel de acierto superior en las fase de training y validation es el experimento nro. 1 de la red neuronal tipo Perceptrón Multicapa o MLP, con un balancend accuracy igual a **0.482**. 
+* también se observa una disminución de los valores de pérdidas de los conjuntos de validation y train, con un train loss igual a **2,485** y un validation loss igual a **2,459**.
+
+Por último, cabe aclarar que los casos de prueba fueron restringidos por la situación mencionada anteriormente, por lo cual no se descarta que con otros seteos de hiperpárametros se alcanzaría un nivel superior de acierto.
